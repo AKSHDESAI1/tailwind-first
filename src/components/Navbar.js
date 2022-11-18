@@ -292,7 +292,7 @@ export default function Example(props) {
                         {/* Secondary column (hidden on smaller screens) */}
                         <aside className="hidden w-96 bg-white border-l border-gray-200 overflow-y-auto lg:block">
                             {/* Your content */}
-                            <h1> AKsh Desai </h1>
+                            <h1 className='font-bold text-5xl' style={{ color: 'pink', textAlign: 'center' }}>HRDC Project </h1>
 
                         </aside>
                     </div>
