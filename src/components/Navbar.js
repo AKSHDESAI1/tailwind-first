@@ -34,9 +34,9 @@ import {
 
 
 const sidebarNavigation = [
-    { name: 'Home', href: '/', icon: HomeIcon, current: false },
+    { name: 'Home', href: '/', icon: HomeIcon, current: true },
     { name: 'All Files', href: '/allfiles', icon: ViewGridIcon, current: false },
-    { name: 'Photos', href: '/photos', icon: PhotographIcon, current: true },
+    { name: 'Photos', href: '/photos', icon: PhotographIcon, current: false },
     { name: 'Shared', href: '/shared', icon: UserGroupIcon, current: false },
     { name: 'Albums', href: '/albums', icon: CollectionIcon, current: false },
     { name: 'Settings', href: '/settings', icon: CogIcon, current: false },
